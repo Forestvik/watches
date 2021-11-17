@@ -1,14 +1,14 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://watch.loc/');
+define('HTTP_SERVER', 'http://watches.loc/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://watch.loc/');
+define('HTTPS_SERVER', 'http://watches.loc/');
 
 // DIR
-define('DIR_APPLICATION', 'G:/OpenServer/domains/watch.loc/catalog/');
-define('DIR_SYSTEM', 'G:/OpenServer/domains/watch.loc/system/');
-define('DIR_IMAGE', 'G:/OpenServer/domains/watch.loc/image/');
+define('DIR_APPLICATION', 'G:/OpenServer/domains/watches.loc/catalog/');
+define('DIR_SYSTEM', 'G:/OpenServer/domains/watches.loc/system/');
+define('DIR_IMAGE', 'G:/OpenServer/domains/watches.loc/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
