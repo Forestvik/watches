@@ -10,6 +10,7 @@
 
 ## System Cache Files
 /system/cache/*
+/system/storage/cache/*
 !/system/cache/index.html
 
 ## Vqmod Cache Files
