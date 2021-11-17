@@ -1,28 +1,38 @@
-## Config and Htaccess Files
-/.htaccess
 /config.php
+/.idea/
 /admin/config.php
 
+/document/
+/*.xml
+/images/
+/image/
 
-## Image Cache Files
+# System Cache Files
+/storage/cache/*
+/storage/cache_fv/*
+/storage/logs/*
+/storage/upload/*
+/storage/session/*
+/storage/logs/error.log
 /image/cache/*
-!/image/cache/index.html
-
-## System Cache Files
 /system/cache/*
-/system/storage/cache/*
+/system/logs/*
+/system/nitro/cache/*
 !/system/cache/index.html
 
-## Vqmod Cache Files
-/vqmod/mods.cache
+/storage/modification/*
+/storage/esb/*
+
+/storage/modification/*
+/storage/esb/*
+
+# Vqmod Folder
 /vqmod/vqcache/*
-!/image/cache/index.html
-
-
-## System Log Files
-/system/logs/*
-!/system/logs/index.html
-
-## Vqmod Log Files
+/vqmod/mods.cache
 /vqmod/logs/*
-!/vqmod/logs/.gitkeep
+/vqmod/checked.cache
+
+storage/modification/catalog/controller/product/category.php
+i.php
+.htaccess.txt
+.htaccess
