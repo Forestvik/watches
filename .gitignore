@@ -16,6 +16,7 @@
 /storage/logs/error.log
 /image/cache/*
 /system/cache/*
+/system/storage/cache/*
 /system/logs/*
 /system/nitro/cache/*
 !/system/cache/index.html
